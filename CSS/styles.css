@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    margin: 0;
+    width: 85%;
+}
+
+.navbar nav {
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+.logo p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar nav ul li .white {
+    color: white;
+}
+
+.navbar nav ul li .black {
+    color: black;
+}
+
+.navbar nav ul {
+    display: flex;
+    font-size: 0;
+}
+
+.navbar nav ul li {
+    font-size: 18px;
+    margin: 10px 20px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+
+.navbar .lieu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: grey;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.navbar .phone {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: grey;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.containertitre {
+    display: flex;
+    width: 100%;
+}
+
+.containertitre .right {
+    background-image: url(../image/header.jpg);
+    width: 50%;
+}
+
+.containertitre .left {
+    width: 50%;
+}
+
+.containertitre .left .titre {
+    font-weight: 400;
+    font-size: 60px;
+    margin: 200px 0 30px 150px;
+}
+
+.containertitre .left .trait {
+    height: 3px;
+    width: 400px;
+    background-color: grey;
+    margin-left: 250px;
+}
+
+.containertitre .left .paragraphe {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.containertitre .left .plus {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 250px 0px 400px 350px;
+    border-bottom: solid grey;
+    border-top: solid grey;
+    border-left: solid grey;
+    padding: 30px;
+}
+
+.containertitre .left .fleche {
+    display: flex;
+}
+
+.containertitre .left .fleche .traitfleche {
+    height: 3px;
+    width: 70px;
+    background-color: grey;
+    margin-top: 300px;
+}
+
+.laura {
+    position: relative;
+}
+
+.traitflechehaut {
+    background-color: grey;
+    height: 3px;
+    width: 30px;
+    rotate: 45deg;
+    position: absolute;
+    top: 651px;
+    right: 160px;
+}
+
+.traitflechebas {
+    background-color: grey;
+    height: 3px;
+    width: 30px;
+    rotate: -45deg;
+    position: absolute;
+    top: 673px;
+    right: 160px;
+}
+
+.left {
+    position: relative;
+}
+
+.profil {
+    background-color: black;
+    display: flex;
+}
+
+.votreprofil {
+    width: 60%;
+    color: white;
+}
+
+.titreprofil {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    margin: 200px 0 30px 350px;
+}
+
+.paragrapheprofil {
+    font-size: 30px;
+    padding: 100px;
+}
+
+.paragrapheprofil p{
+    font-size: 30px;
+    color: rgb(235, 233, 233);
+    margin-bottom: 20px;
+}
+
+.cadre {
+    width: 75%;
+    height: 88%;
+    border: solid white;
+    position: absolute;
+    bottom: 65px;
+    left: 39px;
+    z-index: 1;
+}
+
+.photocadre {
+    width: 40%;
+    display: flex;
+    position: relative;
+}
+
+.photo {
+    margin: 100px 0 0 90px;
+    position: relative;
+    z-index: 2;
+}
+
+.votrechoix {
+    background-color: black;
+    height: 500px;
+}
+
+.votrechoix p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    height: 100%;
+    padding-top: 250px;
+    padding-left: 80px;
+}
+
+.photos {
+    height: 1100px;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.photos3 {
+    position: absolute;
+    z-index: 0;
+    right: 700px;
+    top: 50px;
+}
+
+.photos5 {
+    position: absolute;
+    z-index: 0;
+    right: 150px;
+    top: 120px;
+}
+
+.photos2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    left: 400px;
+}
+
+.photos4 {
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    right: 500px;
+}
+
+.photos1 {
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+}
+
+.materiel {
+    height: 300px;
+    background-color: black;
+}
+
+.materiel p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    height: 100%;
+    padding-left: 60%;
+    padding-top: 50px;
+}
+
+.paragraphephoto {
+    height: 600px;
+    display: flex;
+    background-color: black;
+}
+
+.paragraphephoto .texteappareilphoto {
+    width: 50%;
+}
+
+
+.paragraphephoto .texteappareilphoto p {
+    color: rgb(235, 233, 233);
+    font-size: 30px;
+    padding: 100px 20px 100px 100px;
+ }
+
+ .blocappareil {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .blocappareil .traitblanc {
+    height: 5px;
+    width: 750px;
+    background-color: white;
+ }
+
+ footer {
+    height: 300px;
+    background-color: rgb(235, 233, 233);
+ }
+
+.containerfooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px 100px 100px;
+}
+
+.containerfooter .langues ul li a{
+    color: black;
+    font-weight: 500;
+}
+
+.containerfooter .langues ul li {
+    margin-top: 5px;
+}
+
+.containerfooter .langues ul {
+    margin-top: 50px;
+}
+
+.containerfooter .infos ul li a {
+    color:black ;
+    font-weight: 500;
+}
+
+.containerfooter .infos ul {
+    margin-top: 50px;
+}
+
+.containerfooter .infos ul li {
+    margin-top: 5px;
+}
+
+.containerfooter .contact {
+    display: flex;
+}
+
+.containerfooter .symboles {
+    display: flex;
+}
+
+.symbolecontact {
+    margin-top: 90px;
+}
+
+.textecontact {
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.symboles {
+    margin-top: 90px;
+}
+
+.facebook {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.instagram {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.linkedin {
+    font-size: 30px;
+}
+
+footer .conditions p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.conditions {
+    background-color: rgb(235, 233, 233);
+}
